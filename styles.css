@@ -17,7 +17,7 @@ h1 {
 mark { 
   background:#fffd91;
 }
-button1 { 
+.button1 { 
   background:#04AA6D; 
   color:#fff; 
   border:none; 
@@ -25,14 +25,14 @@ button1 {
   border-radius:999px; 
   cursor:pointer; 
 }
-button1:hover { 
+.button1:hover { 
   background:#028a56; 
 }
-button1:active{
+.button1:active{
   background:#00FF00;
 }
 
-button2 { 
+.button2 { 
   background:#04AA6D; 
   color:#fff; 
   border:none; 
@@ -40,9 +40,9 @@ button2 {
   border-radius:999px; 
   cursor:pointer; 
 }
-button2:hover { 
+.button2:hover { 
   background:#028a56; 
 }
-button2:active{
+.button2:active{
   background:#00FF00;
 }
