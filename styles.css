@@ -1,48 +1,63 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body { 
   font-family: "Google Sans Flex", sans-serif; 
-  background:#f2f6fb; 
-  margin:0; 
+  background: #f2f6fb; 
+  margin: 0; 
 }
+
 main {
-  max-width: 1200px;
+  max-width: 1200px; /* Отлично, увеличил до 1200px — теперь кнопки точно влезут в ряд! */
   margin: 60px auto;
-  background:#fff;
-  padding:32px;
-  border-radius:8px;
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
 }
+
 h1 {
-  color:#04AA6D;
-  margin-top:0;
+  color: #04AA6D;
+  margin-top: 0;
 }
+
 mark { 
-  background:#04AA6D;
+  background: #04AA6D;
 }
+
 .button1 { 
-  background:#04AA6D; 
-  color:#fff; 
-  border:none; 
-  padding:24px 48px; 
-  border-radius:999px; 
-  cursor:pointer; 
+  background: #04AA6D; 
+  color: #fff; 
+  border: none; 
+  padding: 24px 48px; 
+  border-radius: 999px; 
+  cursor: pointer; 
+  font-size: 16px; /* Добавил базовый размер шрифта, чтобы текст не казался мелким в огромной кнопке */
+  margin-right: 12px; /* Небольшой отступ, чтобы кнопки не слипались друг с другом */
 }
+
 .button1:hover { 
-  background:#028a56; 
+  background: #028a56; 
 }
-.button1:active{
-  background:#00FF00;
+
+.button1:active {
+  background: #00FF00;
 }
 
 .button2 { 
-  background:#04AA6D; 
-  color:#fff; 
-  border:none; 
-  padding:24px 48px; 
-  border-radius:999px; 
-  cursor:pointer; 
+  background: #04AA6D; 
+  color: #fff; 
+  border: none; 
+  padding: 24px 48px; 
+  border-radius: 999px; 
+  cursor: pointer; 
+  font-size: 16px;
 }
+
 .button2:hover { 
-  background:#028a56; 
+  background: #028a56; 
 }
-.button2:active{
-  background:#00FF00;
+
+.button2:active {
+  background: #00FF00;
 }
